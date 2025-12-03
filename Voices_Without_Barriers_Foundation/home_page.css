@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+header, footer {
+    font-family: 'Montserrat', sans-serif;
+    background: #0A1A2F;
+    border-radius: 0px 0px 15px 15px;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+  font-family: 'Montserrat', sans-serif;
+    background: #0A1A2F;
+    border-radius: 0px 0px 15px 15px;
+    color: #fff;
+}
+
+h2, h3 {
+    width: auto;
+    display: inline-block;
+    background-color: #0a1a2f;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    margin: 20px;
+    color: #fff;
+}
+
+.languages-container {
+    display: grid;
+    align-items: start;
+    grid-template-areas: 
+    "languages statement"
+    "languages services"
+    "languages hours";
+    gap: 50px;
+    margin: 40px;
+    grid-template-columns: 1fr 2fr;
+}
+
+.languages {
+    grid-area: languages;
+    width: 100%;
+    max-width: 1200px;
+    line-height: 2.4;
+    background-color: #0A1A22;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+} 
+
+.statement {
+    grid-area: statement;
+    background-color: #0A1A22;
+    color: #fff;
+    border-radius: 15px 15px 15px 15px;
+    line-height: 1.6;
+    margin: 0;
+    width: 100%;
+    padding-top: 15px;
+    padding: 15px;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+.services {
+    grid-area: services;
+    background-color: #0A1A22;
+    color: #fff;
+    line-height: 1.6;
+    margin: 0;
+    width: 100%;
+    padding: 15px;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+.hours {
+    grid-area: hours;
+   background-color: #0A1A22;
+    color: #fff;
+    line-height: 1.6;
+    margin: 0;
+    width: 100%;
+    padding: 15px;
+    max-width: 700px;
+    border-radius: 10px;
+}
+.languages ul li a {
+    text-decoration: none;
+    color: #fff; 
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.languages ul li a:hover {
+    background-color: #fff;
+    color: #64AD92; /* teal text */
+}
+
+.languages ul li a:visited {
+    color: #64AD92; 
+}
+
+.languages ul li a:active {
+    background-color: #64AD92;
+    color: #fff;
+}
+
+.statement a {
+    text-decoration: none;
+    color: #fff; 
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.statement a:hover {
+    background-color: #fff;
+    color: #64AD92; /* teal text */
+}
+.statement a:visited {
+    color: #64AD92; 
+}
+.statement a:active {
+    background-color: #64AD92;
+    color: #fff;
+}
+
+.Back {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.Back a {
+    text-decoration: none;
+    color: #fff; 
+    align-content: center;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #64AD92;;
+}
+
+.Back a:hover {
+    background-color: #0A1A22;
+    color: #fff;
+}
+.Back a:visited {
+    color: #fff; 
+}
+.Back a:active {
+    background-color: #0A1A22;
+    color: #fff;
+}
+
+table {
+  align-content: center;
+  border-collapse: collapse;
+  width: 85%;
+  margin: auto;
+  margin-top: 50px;
+  padding: 10px;
+  font-size: 15px;
+  color: #64AD92;
+}
+
+thead {
+  background-color: #1e1e2f;
+  color: #64AD92;
+}
+
+th, td {
+  border: 1px solid #eee;
+  padding: 4px 6px;
+  text-align: center;
+}
+
